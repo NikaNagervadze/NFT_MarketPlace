@@ -8,26 +8,20 @@
     src: url(../fonts/WorkSans-VariableFont_wght.ttf);
 }
 
-@media only screen and (max-width: 994px) {
+@media only screen and (max-width: 991px) {
     .h11 {
         font-size: 28px !important;
     }
 }
 
-@media only screen and (max-width: 994px) {
+@media only screen and (max-width: 991px) {
     .p1 {
         font-size: 16px !important;
     }
 }
 
-@media only screen and (max-width: 994px) {
+@media only screen and (max-width: 991px) {
     .btnn {
-        width: 100% !important;
-    }
-}
-
-@media only screen and (min-width: 200px) {
-    .headlinesubline {
         width: 100% !important;
     }
 }
@@ -58,6 +52,8 @@
     }
 }
 
+
+
 @media only screen and (max-width: 991px) {
     .PPP {
         display: grid;
@@ -84,6 +80,91 @@
     .hero-section-frame {
         width: 100%;
     }
+
+    .a1 {
+        display: flex;
+    }
+
+    .a2 {
+        display: none;
+    }
+
+    .a3 {
+        width: 100%;
+    }
+
+    .text3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .text3>h1 {
+        text-align: left;
+    }
+
+    .SS {
+        width: 32%;
+    }
+
+    .infocards {
+        display: flex;
+        align-items: center;
+    }
+
+    .infocard>h1 {
+        font-family: 'Sans';
+        font-weight: 600;
+        line-height: 140%;
+        font-size: 16px;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+
+    }
+
+    .infocard>p {
+        font-family: 'Sans';
+        font-weight: 600;
+        line-height: 140%;
+        font-size: 12px;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+
+    }
+
+    .img6>img {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .infocard>h1 {
+        font-family: 'Sans';
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+    }
+
+    .infocard>p {
+        font-family: 'Sans';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+
+    }
 }
 
 * {
@@ -94,6 +175,11 @@
 body {
     background-color: #2B2B2B;
     overflow-x: hidden;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .nav-link:hover {
@@ -379,7 +465,6 @@ body {
     align-items: center;
     gap: 12px;
 
-    width: 247px;
     height: 60px;
 
     border: 2px solid #A259FF;
@@ -411,17 +496,29 @@ body {
     background: #3B3B3B;
     border-radius: 20px;
 
-    width: 240px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.a1:hover {
+    transform: scale(0.95);
+}
+
+.a2 {
+    padding: 20px;
+
+    background: #3B3B3B;
+    border-radius: 20px;
 
     transition-property: transform;
     transition-duration: 0.3s;
 }
 
-.a1:hover{
+.a2:hover {
     transform: scale(0.95);
 }
 
-.artists1 {
+.Artists1 {
     position: relative;
 }
 
@@ -431,7 +528,6 @@ body {
     font-size: 22px;
     line-height: 140%;
 
-    text-align: center;
     text-transform: capitalize;
 
     color: #FFFFFF;
@@ -504,10 +600,314 @@ body {
     filter: blur(7.5px);
 }
 
-.Artist-card:hover .card-image{
+.Artist-card:hover .card-image {
     filter: blur(0px);
 }
 
-.Artist-card:hover .CIP{
+.Artist-card:hover .CIP {
     visibility: hidden;
+}
+
+.CIP {
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.art {
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.art:hover {
+    transform: scale(0.95);
+}
+
+.cardinfo {
+    background: #3B3B3B;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+}
+
+.artinfo>h1 {
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.artinfo>p {
+    font-family: 'mono';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.addinfo {
+    display: grid;
+    justify-content: space-between;
+}
+
+.info1>p {
+    font-family: 'mono';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+
+    color: #858584;
+}
+
+.info1>h1 {
+    font-family: 'mono';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.info2>p {
+    font-family: 'mono';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+
+    color: #858584;
+}
+
+.info2>h1 {
+    font-family: 'mono';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.infocards {
+    background: #3B3B3B;
+    border-radius: 20px;
+    padding: 30px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.infocards:hover {
+    transform: scale(0.95);
+}
+
+.img6 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+
+    background: #3B3B3B;
+    border-radius: 20px;
+    padding: 60px;
+}
+
+.join {
+    display: grid;
+    gap: 30px;
+}
+
+.join>h1 {
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.join>p {
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.join2>input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0px 16px 20px;
+    gap: 12px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 0;
+
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #2B2B2B;
+}
+
+.join2>button {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    padding: 11px 50px;
+
+    background: #A259FF;
+    border-radius: 20px;
+    border: 0;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.join2>button:hover {
+    transform: scale(0.95);
+    transform-origin: center;
+}
+
+.community>p{
+    font-family: 'Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #CCCCCC
+}
+
+.explore>h1{
+    font-family: 'Mono';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 160%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.explore>a{
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #CCCCCC;
+}
+
+.subscribe>h1{
+    font-family: 'Mono';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF
+}
+
+.subscribe>p{
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #CCCCCC;
+}
+
+.nftmain{
+    background-image: url(../images/NFT\ Info.png);
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.art2{
+    background: #3B3B3B;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 28%;
+
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration: none;
+
+    color: #FFFFFF
+}
+
+.artistshowcase>h1{
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+
+.artistshowcase>:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 50px;
+    gap: 12px;
+    
+    width: 198px;
+    height: 60px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+ 
+    text-align: center;
+    text-decoration: none;
+    
+    color: #2B2B2B;  
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 10px;
+    
+    width: 295px;
+    height: 144px;
+    
+    background: rgba(59, 59, 59, 0.5);
+    backdrop-filter: blur(5px);
+
+    border-radius: 20px;    
 }
