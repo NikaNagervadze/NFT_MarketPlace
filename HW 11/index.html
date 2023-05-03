@@ -36,7 +36,7 @@
                             <a href="#" class="nav-link">Connect a wallet</a>
                         </li>
                         <li>
-                            <button class="TTn"><img src="./assets/images/User.png">Sign Up</button>
+                            <a href="./sing_up.html" class="TTn text-decoration-none"><img src="./assets/images/User.png">Sign Up</a>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +45,7 @@
     </header>
     <section class="container justify-content-center hero-section">
         <div class="row justify-content-between">
-            <div class=" col-md-4 col-12 d-grid gap-3   hero-section-frame">
+            <div class=" col-lg-6 col-12 d-grid gap-3   hero-section-frame">
                 <div class="col-12 col-md-12 gap-3 headlinesubline">
                     <h1 style="font-weight: 600;font-size: 67px; margin: 0; font-family: sans;" class="h11">Discover
                         Digital Art & Collect Nfts</h1>
@@ -480,11 +480,11 @@
     <section class="container-fluid nftmain d-flex">
         <div class="container d-flex">
             <div class="row align-items-end">
-                <div class="col-12 NFT d-flex " >
-                    <div class="artistshowcase col-12 col-lg-6">
-                        <a href="#" class="art2"><img src="./assets/images/Avatar2 Placeholder.png"> Shroomie</a>
+                <div class="col-12 NFT d-grid d-lg-flex gap-3 gap-lg-0 align-items-end" >
+                    <div class="artistshowcase d-grid gap-3 col-11">
+                        <a href="#" class="art2 col-4 col-lg-3"><img src="./assets/images/Avatar2 Placeholder.png"> Shroomie</a>
                         <h1>Magic Mashrooms</h1>
-                        <a href="#"><img src="./assets/images/Eye.png"> See NFT</a>
+                        <a href="#" class="d-none d-lg-block"><img src="./assets/images/Eye.png"> See NFT</a>
                     </div>
                     <div class="timer col-12 col-lg-6">
                         <p>Auction ends in:</p>
@@ -501,6 +501,7 @@
                             <p>Seconds</p>
                         </div>
                     </div>
+                    <a href="#" class="col-6 see d-flex d-lg-none"><img src="./assets/images/Eye.png"> See NFT</a>
                 </div>
             </div>
         </div>
@@ -557,11 +558,11 @@
                 <div class="col-12 col-lg-6 img7">
                     <img src="./assets/images/Photo.png" class="col-12">
                 </div>
-                <div class="col-12 col-lg-6 join">
+                <div class="col-12 col-lg-5 join align-items-center">
                     <h1>Join our weekly digest</h1>
                     <p>Get exclusive promotions & updates straight to your inbox.</p>
                     <div class="position-relative join2">
-                        <input class="col-12" type="email" placeholder="Enter your email here">
+                        <input class="col-12 col-lg-11" type="email" placeholder="Enter your email here">
                         <button><img src="./assets/images/EnvelopeSimple.png"> Subscribe</button>
                     </div>
                 </div>
@@ -571,8 +572,8 @@
     <footer class="container-fluid h-100" style="background-color: #3B3B3B;">
         <div class="container">
             <div class="row" style="background-color: #3B3B3B;">
-                <div class="col-12 marketinfo d-grid d-lg-flex gap-4 ju justify-content-between  justify-content-center p-3">
-                    <div class="col-4 ">
+                <div class="col-12 marketinfo d-grid d-lg-flex gap-4 justify-content-between p-3">
+                    <div class="col-12 col-lg-4">
                         <div class="logo">
                             <h1><img src="./assets/images/Logo.png"></h1>
                         </div>
@@ -587,17 +588,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" col-4 explore d-grid justify-content-between">
+                    <div class=" col-12 col-lg-2 explore d-grid justify-content-between">
                         <h1>Explore</h1>
                         <a href="#" class="text-decoration-none">Marketplace</a>
                         <a href="#" class="text-decoration-none">Rankings</a>
                         <a href="#" class="text-decoration-none">Connect a wallet</a>
                     </div>
-                    <div class="subscribe col-4">
+                    <div class="subscribe col-12 col-lg-4">
                         <h1>Join our weekly digest</h1>
                         <p>Get exclusive promotions & updates straight to your inbox.</p>
+                        <div class="position-relative d-grid d-lg-block join2">
+                            <input class="col-12" type="email" placeholder="Enter your email here">
+                            <button class="col-12 col-lg-6"><img src="./assets/images/EnvelopeSimple.png"> Subscribe</button>
+                        </div>
                     </div>
                 </div>
+                <hr class="line">
                 <div class="aaa">
                     <p>Ⓒ NFT Market. Use this template freely.</p>
                 </div>
