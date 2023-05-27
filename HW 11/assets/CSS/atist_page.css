@@ -116,226 +116,11 @@ body{
     gap: 30px;
 }
 
-.btnn {
-    font-family: 'Sans';
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-
-    height: 60px;
-
-    background: #A259FF;
-    border-radius: 20px;
-    border: 0;
-
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-
-    text-align: center;
-
-    color: #FFFFFF;
-
-    transition-property: transform;
-    transition-duration: 0.3s;
-}
-
-.browse>h1{
-    font-family: 'Sans';
-    font-weight: 600;
-    font-size: 51px;
-    line-height: 110%;
-   
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-   
-    color: #FFFFFF;   
-}
-
-.browse>p{
-    font-family: 'Sans';
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 160%;
- 
-    color: #FFFFFF;    
-}
-
-.search{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 12px 0px;
-    gap: 10px;
-    height: 50px;
-    border: 1px solid #3B3B3B;
-    border-radius: 20px;
-}
-
-.art {
-    transition-property: transform;
-    transition-duration: 0.3s;
-}
-
-.art:hover {
-    transform: scale(0.95);
-}
-
-.cardinfo {
-    background: #3B3B3B;
-    border-radius: 0px 0px 20px 20px;
-    padding: 20px;
-}
-
-.artinfo>h1 {
-    font-family: 'Sans';
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
-
-    text-transform: capitalize;
-
-    color: #FFFFFF;
-}
-
-.artinfo>p {
-    font-family: 'mono';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-
-    color: #FFFFFF;
-}
-
-.addinfo {
-    display: grid;
-    justify-content: space-between;
-}
-
-.info1>p {
-    font-family: 'mono';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 110%;
-
-    color: #858584;
-}
-
-.info1>h1 {
-    font-family: 'mono';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-
-    color: #FFFFFF;
-}
-
-.info2>p {
-    font-family: 'mono';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 110%;
-
-    color: #858584;
-}
-
-.info2>h1 {
-    font-family: 'mono';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-
-    color: #FFFFFF;
-}
-
-.search>input{
-    background: transparent;
-    border: 0;
-    height: 45px;
-}
-
-.NFTs{
-    border-bottom: #858584 1px solid;
-    display: flex;
-    justify-content: center;
-}
-
-.NFTs>h1{
-    font-family: 'Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
-
-    text-align: center;
-    text-transform: capitalize;
-
-    color: #FFFFFF;
-    margin: 0;
-}
-
-.p{
-    display: flex;
-    padding: 5px 10px;
-    margin-left: 5px;
-    gap: 10px;
-
-    width: 50px;
-    height: 32px;
-    
-    background: #858584;
-    border-radius: 20px;   
-}
-
-.p>p{
-    font-family: 'Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;   
-    
-    color: #FFFFFF;
-}
-
-.colls>h1{
-    font-family: 'Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
-
-    text-align: center;
-    text-transform: capitalize;
-
-    color: #858584;
-    margin: 0;
-}
-
-.pp{
-    display: flex;
-    flex-direction: row;
-    padding: 5px 10px;
-    margin-left: 5px;
-    gap: 10px;
-    
-    width: 40px;
-    height: 32px;
-
-    background: #3B3B3B;
-    border-radius: 20px;
-}
-
-.pp>p{
-    font-family: 'Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    
-    color: #FFFFFF;
+.background{
+    background-image: url(../images6/Image\ PlaceHolder.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .cards>a{
@@ -353,6 +138,7 @@ body{
 .cardinfo{
     background: #2B2B2B;
     border-radius: 0px 0px 20px 20px;
+    padding: 20px;
 }
 
 .artistinfo>h1{
@@ -392,6 +178,8 @@ body{
     font-size: 16px;
     line-height: 140%;
 
+    margin: 0;
+
     color: #FFFFFF;   
 }
 
@@ -414,9 +202,194 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
+
+    margin: 0;
    
     text-align: right;
   
+    color: #FFFFFF;
+}
+
+.Animakid>h1{
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+
+    color: #FFFFFF;
+}
+
+.valume>p{
+    font-family: 'Mono';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+
+    margin: 0;
+ 
+    color: #FFFFFF;  
+}
+
+.valume>:last-child{
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+  
+    color: #FFFFFF;   
+}
+
+.bio>p{
+    font-family: 'Mono';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+
+    color: #858584;  
+}
+
+.bio>:last-child{
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+
+    color: #FFFFFF;   
+}
+
+.links>p{
+    font-family: 'Mono';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+
+    color: #858584;  
+}
+
+
+.buttons>button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    gap: 12px;
+  
+    background: #A259FF;
+    border-radius: 20px;
+    border: 0;
+
+    transition: all 0.3s;
+
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.buttons>:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    gap: 12px;
+
+    background: transparent;
+
+    border: 2px solid #A259FF;
+    border-radius: 20px;   
+
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.buttons>button:hover{
+    transform: scale(0.95);
+}
+
+.p{
+    display: flex;
+    padding: 5px 10px;
+    margin-left: 5px;
+    gap: 10px;
+
+    width: 50px;
+    height: 32px;
+    
+    background: #858584;
+    border-radius: 20px;   
+}
+
+.p>p{
+    font-family: 'Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;   
+    
+    color: #FFFFFF;
+}
+
+.NFTs>h1{
+    font-family: 'Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+.colls>h1{
+    font-family: 'Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #858584;
+    margin: 0;
+}
+
+.pp{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    margin-left: 5px;
+    gap: 10px;
+    
+
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.pp>p{
+    font-family: 'Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0;
+    
     color: #FFFFFF;
 }
 
