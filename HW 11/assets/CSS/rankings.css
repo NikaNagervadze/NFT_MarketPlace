@@ -33,12 +33,6 @@ body{
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .background>img{
-        margin-left: 130px !important; 
-    }
-}
-
 .container {
     align-items: center;
     align-self: stretch;
@@ -116,115 +110,8 @@ body{
     transform: scale(0.95);
 }
 
-.headlinesubline {
-    color: white;
-    display: grid;
-    gap: 30px;
-}
 
-.background{
-    background-image: url(../images6/Image\ PlaceHolder.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.background>img{
-    border: black solid 2px;
-    border-radius: 20px;
-
-    margin-left: 283px;
-    margin-top: 335px;
-}
-
-.cards>a{
-    transition: all 0.3s;
-}
-
-.cards>a:hover{
-    transform: scale(0.95);
-}
-
-.img>img{
-    width: 100%;
-}
-
-.cardinfo{
-    background: #2B2B2B;
-    border-radius: 0px 0px 20px 20px;
-    padding: 20px;
-}
-
-.artistinfo>h1{
-    font-family: 'Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
-  
-    color: #FFFFFF;   
-}
-
-.artist>p{
-    font-family: 'Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%; 
-
-    color: #FFFFFF;   
-}
-
-.ppp>p{
-    font-family: 'Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 110%;
-
-    color: #858584;
-}
-
-.ppp>:last-child{
-    font-family: 'Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-
-    margin: 0;
-
-    color: #FFFFFF;   
-}
-
-.h>p{
-    font-family: 'Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 110%;
-  
-    text-align: right;
-    
-    color: #858584;
-    
-}
-
-.h>:last-child{
-    font-family: 'Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-
-    margin: 0;
-   
-    text-align: right;
-  
-    color: #FFFFFF;
-}
-
-.Animakid>h1{
+.creators>h1{
     font-family: 'Sans';
     font-weight: 600;
     font-size: 51px;
@@ -233,178 +120,100 @@ body{
     color: #FFFFFF;
 }
 
-.valume>p{
-    font-family: 'Mono';
-    font-weight: 700;
-    font-size: 28px;
+.creators>p{
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+
+    color: #FFFFFF;
+}
+
+.date>h1{
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 22px;
     line-height: 140%;
 
-    margin: 0;
- 
-    color: #FFFFFF;  
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
-.valume>:last-child{
-    font-family: 'Sans';
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 160%;
-  
-    color: #FFFFFF;   
-}
-
-.bio>p{
-    font-family: 'Mono';
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 160%;
-
-    color: #858584;  
-}
-
-.bio>:last-child{
-    font-family: 'Sans';
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 160%;
-
-    color: #FFFFFF;   
-}
-
-.links>p{
-    font-family: 'Mono';
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 160%;
-
-    color: #858584;  
-}
-
-
-.buttons>button{
+.artists{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    padding: 15px 25px;
-    gap: 12px;
-  
-    background: #A259FF;
+    padding: 12px 30px;
+    gap: 10px;
+
+    border: 1px solid #3B3B3B;
     border-radius: 20px;
-    border: 0;
-
-    transition: all 0.3s;
-
-    font-family: 'Sans';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    
-    text-align: center;
-    
-    color: #FFFFFF;
 }
 
-.buttons>:last-child{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 25px;
-    gap: 12px;
-
-    background: transparent;
-
-    border: 2px solid #A259FF;
-    border-radius: 20px;   
-
-    font-family: 'Sans';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    
-    text-align: center;
-    
-    color: #FFFFFF;
-}
-
-.buttons>button:hover{
-    transform: scale(0.95);
-}
-
-.p{
-    display: flex;
-    padding: 5px 10px;
-    margin-left: 5px;
+.artist{
+    padding-top: 5px;
+    padding-left: 20px;
     gap: 10px;
-
-    width: 50px;
-    height: 32px;
-    
-    background: #858584;
-    border-radius: 20px;   
-}
-
-.p>p{
-    font-family: 'Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;   
-    
-    color: #FFFFFF;
-}
-
-.NFTs>h1{
-    font-family: 'Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
-
-    text-align: center;
-    text-transform: capitalize;
-
-    color: #FFFFFF;
-    margin: 0;
-}
-
-
-.colls>h1{
-    font-family: 'Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 140%;
-
-    text-align: center;
-    text-transform: capitalize;
-
-    color: #858584;
-    margin: 0;
-}
-
-.pp{
-    display: flex;
-    flex-direction: row;
-    padding: 5px 10px;
-    margin-left: 5px;
-    gap: 10px;
-    
 
     background: #3B3B3B;
     border-radius: 20px;
 }
 
-.pp>p{
+.artists>p{
     font-family: 'Mono';
-    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #858584;
+}
+
+.rankart>h1{
+    font-family: 'Sans';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    margin: 0;
+
+    color: #FFFFFF;
+}
+
+.stats>p{
+    font-family: 'Mono';
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     margin: 0;
-    
+
     color: #FFFFFF;
+}
+
+.stats>:first-child{
+    font-family: 'Mono';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #00AC4F;
+}
+
+.join2>input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0px 16px 20px;
+    gap: 12px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 0;
+
+    font-family: 'Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #2B2B2B;
 }
 
 .join2>input {
@@ -436,11 +245,12 @@ body{
     
     color: #FFFFFF;
 
+
     z-index: 1;
     top: 0;
     display: flex;
     align-items: center;
-    left: 54%;
+    left: 59%;
     padding: 11px 50px;
 
     background: #A259FF;
@@ -456,7 +266,7 @@ body{
     transform-origin: center;
 }
 
-.community>p {
+.community>p{
     font-family: 'Sans';
     font-style: normal;
     font-weight: 400;
@@ -466,7 +276,7 @@ body{
     color: #CCCCCC
 }
 
-.explore>h1 {
+.explore>h1{
     font-family: 'Mono';
     font-weight: 700;
     font-size: 27px;
@@ -477,7 +287,7 @@ body{
     color: #FFFFFF;
 }
 
-.explore>a {
+.explore>a{
     font-family: 'Sans';
     font-weight: 400;
     font-size: 16px;
@@ -486,7 +296,7 @@ body{
     color: #CCCCCC;
 }
 
-.subscribe>h1 {
+.subscribe>h1{
     font-family: 'Mono';
     font-weight: 700;
     font-size: 22px;
@@ -497,7 +307,7 @@ body{
     color: #FFFFFF
 }
 
-.subscribe>p {
+.subscribe>p{
     font-family: 'Sans';
     font-weight: 400;
     font-size: 16px;
@@ -506,15 +316,15 @@ body{
     color: #CCCCCC;
 }
 
-.line {
+.line{
     border: 1px solid #858584;
 }
 
-.aaa>p {
+.aaa>p{
     font-family: 'Sans';
     font-weight: 400;
     font-size: 12px;
     line-height: 110%;
-
+    
     color: #CCCCCC;
 }

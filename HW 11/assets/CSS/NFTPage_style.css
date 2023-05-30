@@ -20,7 +20,14 @@ body{
         width: 100%;
         position: static;
     }
+    .cover{
+        background-image: url(../images4/Image\ PlaceHolder3.png) !important;
+        background-position: center;
+        height: 593px !important;
+    }
 }
+
+
 
 @media only screen and (min-width: 991px) {
     .join2button {
